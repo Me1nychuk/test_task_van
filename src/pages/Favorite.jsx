@@ -1,8 +1,11 @@
-import React from 'react'
+
+import css from "./Favorite.module.css"
 
 const Favorite = () => {
   return (
-    <div>Favorite</div>
+    <div >
+     favorite
+    </div>
   )
 }
 

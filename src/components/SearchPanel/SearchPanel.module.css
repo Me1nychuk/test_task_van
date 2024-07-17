@@ -1,0 +1,105 @@
+.location {
+  width: 100%;
+  margin-bottom: 32px;
+}
+.location h2 {
+  color: rgba(16, 24, 40, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 18px;
+  background-color: var(--background-secondary-color);
+  border-radius: 10px;
+}
+.point {
+  color: var(--text-color-second);
+  transition: color 0.2s;
+}
+.inputWrapper:focus-within .point {
+  color: var(--text-color);
+}
+
+.input {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.filterTitle {
+  color: var(--text-color-second);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 14px;
+}
+.filterBlock.firstBlock {
+    margin-bottom: 32px;
+  }
+  
+  .filterBlock.secondBlock {
+    margin-bottom: 64px;
+  }
+  
+.filterBlockTitle{
+    color: var(--text-color);
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+width: 100%;
+padding-bottom: 24px;margin-bottom: 24px;
+border-bottom: 1px solid rgba(16, 24, 40, 0.1);
+
+}
+
+.icon {
+  stroke: black;
+  fill: white;
+  width: 32px;
+  height: 32px;
+}
+.filterList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+
+.filterItem {
+  border: 1px solid rgba(16, 24, 40, 0.2);
+  flex-basis: calc((100% - 20px) / 3);
+  max-height: 95px;
+  padding: 17px 0;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  gap: 12px;
+ color: var(--text-color);
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+transition: all .3s;
+}
+.filterItem:hover,.filterItem:active{
+   
+   border-color: var(--text-color);
+}
+.filterItem.active{
+    border-color: var(--accent-color);
+    
+}
+
+.ItemPadding{
+    padding: 5px;
+}
