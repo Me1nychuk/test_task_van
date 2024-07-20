@@ -1,0 +1,49 @@
+.addInfo {
+    max-width: 430px;
+    width: 430px;
+  }
+  .review{
+      margin-bottom: 24px;
+  }
+  
+  .commentTitle {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .avatarWrapper {
+    border: 1px dashed var(--background-secondary-color);
+  }
+  
+  .avatar {
+    background-color: var(--background-secondary-color);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--accent-color);
+    display: grid;
+    place-items: center;
+  }
+  
+  .commentTitle h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .starIconAct {
+    color: #ffc531;
+  }
+  .starIconDis {
+    color: var(--background-secondary-color);
+  }
+  .comment {
+    color: var(--text-color-second);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    
+  }

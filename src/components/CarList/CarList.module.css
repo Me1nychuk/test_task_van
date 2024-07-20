@@ -1,5 +1,25 @@
-.carList{
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
+.carList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+}
+.btn {
+  color: var(--text-color);
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 16px 32px;
+  border: 2px solid var(--background-secondary-color);
+  border-radius: 200px;
+  transition: all 0.3s;
+  width: 147px;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:active {
+  background-color: var(--background-secondary-color);
 }

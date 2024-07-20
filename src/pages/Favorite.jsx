@@ -1,12 +1,13 @@
-
-import css from "./Favorite.module.css"
+import FavoriteList from "../components/FavoriteList/FavoriteList";
+import css from "./Favorite.module.css";
 
 const Favorite = () => {
   return (
-    <div >
-     favorite
+    <div>
+      <h1 className={css.title}>Favorite</h1>
+      <FavoriteList />
     </div>
-  )
-}
+  );
+};
 
-export default Favorite
+export default Favorite;

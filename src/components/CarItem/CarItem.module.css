@@ -31,6 +31,19 @@
   font-weight: 600;
   line-height: 30px;
 }
+.mainInfo p {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+.heartIcon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.heartIcon.active {
+  color: var(--accent-color);
+}
 
 .addInfo {
   display: flex;
@@ -43,7 +56,7 @@
   text-decoration-line: underline;
 }
 .iconinfo {
-    margin-right: 4px;
+  margin-right: 4px;
 }
 
 .description {
@@ -74,7 +87,7 @@
   line-height: 20px;
 }
 .upperCase::first-letter {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .icon {
@@ -82,4 +95,21 @@
   height: 20px;
   stroke: black;
   fill: white;
+}
+.btn {
+  background-color: var(--accent-color);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 16px 40px;
+  border: none;
+  border-radius: 200px;
+  transition: all 0.3s;
+
+  cursor: pointer;
+}
+.btn:hover,
+.btn:active {
+  background-color: #d84343;
 }

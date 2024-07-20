@@ -43,22 +43,22 @@
   margin-bottom: 14px;
 }
 .filterBlock.firstBlock {
-    margin-bottom: 32px;
-  }
-  
-  .filterBlock.secondBlock {
-    margin-bottom: 64px;
-  }
-  
-.filterBlockTitle{
-    color: var(--text-color);
-font-size: 20px;
-font-weight: 600;
-line-height: 24px;
-width: 100%;
-padding-bottom: 24px;margin-bottom: 24px;
-border-bottom: 1px solid rgba(16, 24, 40, 0.1);
+  margin-bottom: 32px;
+}
 
+.filterBlock.secondBlock {
+  margin-bottom: 64px;
+}
+
+.filterBlockTitle {
+  color: var(--text-color);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  width: 100%;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid rgba(16, 24, 40, 0.1);
 }
 
 .icon {
@@ -74,7 +74,6 @@ border-bottom: 1px solid rgba(16, 24, 40, 0.1);
   gap: 10px;
 }
 
-
 .filterItem {
   border: 1px solid rgba(16, 24, 40, 0.2);
   flex-basis: calc((100% - 20px) / 3);
@@ -85,21 +84,37 @@ border-bottom: 1px solid rgba(16, 24, 40, 0.1);
   place-items: center;
   text-align: center;
   gap: 12px;
- color: var(--text-color);
-font-size: 16px;
-font-weight: 500;
-line-height: 20px;
-transition: all .3s;
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  transition: all 0.3s;
 }
-.filterItem:hover,.filterItem:active{
-   
-   border-color: var(--text-color);
+.filterItem:hover,
+.filterItem:active {
+  border-color: var(--text-color);
 }
-.filterItem.active{
-    border-color: var(--accent-color);
-    
+.filterItem.active {
+  border-color: var(--accent-color);
 }
 
-.ItemPadding{
-    padding: 5px;
+.ItemPadding {
+  padding: 5px;
+}
+.btn {
+  background-color: var(--accent-color);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 16px 60px;
+  border: none;
+  border-radius: 200px;
+  transition: all 0.3s;
+
+  cursor: pointer;
+}
+.btn:hover,
+.btn:active {
+  background-color: #d84343;
 }

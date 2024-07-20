@@ -7,7 +7,7 @@ import css from "./Layout.module.css";
 
 const Layout = () => {
   return (
-    <>
+    <div className={css.page}>
       <AppBar />
       <main className={css.main}>
         <Container>
@@ -16,7 +16,8 @@ const Layout = () => {
           </Suspense>
         </Container>
       </main>
-    </>
+      <footer className={css.footer}>Trailers</footer>
+    </div>
   );
 };
 

@@ -31,7 +31,7 @@ const SearchPanel = () => {
                  <li className={css.filterItem}><Icon id='camper3' className={css.icon}/>Alcove</li>
             </ul>
         </div>
-        <button>Search</button>
+        <button className={css.btn}>Search</button>
     </div>
   )
 }

@@ -1,0 +1,133 @@
+.wrapper {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: #3d3d3d9c;
+  padding: 40px 0;
+}
+
+.modal {
+  background-color: #fff;
+  max-width: 982px;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 20px;
+  max-height: calc(100vh - 80px);
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.title {
+  color: var(--text-color);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.closeBtn {
+  color: var(--text-color);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.closeBtn:hover,
+.closeBtn:active {
+  color: var(--text-color-second);
+}
+
+.scrollBox {
+  max-height: 100%;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.basicReview {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 16px;
+  color: var(--text-color);
+}
+.rating {
+  text-decoration-line: underline;
+}
+.iconinfo {
+  margin-right: 4px;
+}
+
+.price {
+  color: var(--text-color);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+.description {
+  color: var(--text-color-second);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 44px;
+}
+
+.addInfoChoice {
+  width: 100%;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--background-secondary-color);
+  margin-bottom: 44px;
+}
+.addInfoChoice span {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  position: relative;
+  cursor: pointer;
+}
+.addInfoChoice span:first-of-type {
+  margin-right: 40px;
+}
+
+.addInfoChoice span:hover,
+.addInfoChoice span:active {
+  color: var(--text-color-second);
+}
+.addInfoChoice span.active::before {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  content: "";
+  height: 5px;
+  width: 85px;
+  background-color: var(--accent-color);
+}
+
+.addSection {
+  display: flex;
+  gap: 24px;
+}
+
+.addInfo {
+  width: 430px;
+  max-width: 430px;
+}
+.commentTitle {
+  color: var(--text-color);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+.commentText {
+  color: var(--text-color-second);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
