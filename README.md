@@ -11,12 +11,12 @@
 1. Клонування репозиторію:
 
    ```bash
-   git clone https://github.com/your-username/trailer-sales-website.git
+   git clone https://github.com/Me1nychuk/test_task_van
 
    ```
 
 2. Перейдіть до директорії проекту:
-   cd trailer-sales-website
+   cd test_task_van
 
 3. Встановіть залежності:
    npm install
